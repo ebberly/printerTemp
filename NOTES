@@ -1,0 +1,23 @@
+NOTES:
+
+@warshaw and @ebberly followed the tutorial from here for wiring:
+https://github.com/andrewn/raspi-printer
+
+then installed dependencies, etc. from here:
+http://learn.adafruit.com/pi-thermal-printer
+
+then cloned https://github.com/adafruit/Python-Thermal-Printer to pi
+ran "printertest.py". it worked.
+modified printertest.py to say "sitetosite". it worked.
+
+manually forked some code from: https://github.com/adafruit/Python-Thermal-Printer 
+to https://github.com/site2site/Networked-Printer
+
+files: 
+- Adafruit_Thermal.py
+- printertest.py
+
+then modified printertest.py to be xoupprintertest.py
+did not attempt to print.
+
+
