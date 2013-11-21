@@ -18,8 +18,8 @@ printer.println("STUDIO-X NEW YORK")
 
 
 # Print the 75x75 pixel logo in adalogo.py
-import img as img
-printer.printBitmap(img.width, img.height, img.data)
+# import gfx as img
+#printer.printBitmap(img.width, img.height, img.data)
 
 
 printer.sleep()      # Tell printer to sleep
