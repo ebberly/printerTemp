@@ -18,6 +18,16 @@ files:
 - printertest.py
 
 then modified printertest.py to be xoupprintertest.py
-did not attempt to print.
+prints.
 
 
+
+----------------------------
+SPACEBREW
+
+
+install setuptools:
+https://pypi.python.org/pypi/setuptools#installation-instructions
+
+install websockets:
+https://github.com/liris/websocket-client
