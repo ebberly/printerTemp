@@ -43,4 +43,6 @@ filepath = "test.gif"
 
 buffer = open(filepath, 'rb').read()
 
-printer.printBitmap(100, 100, buffer)
+base64.b16encode(buffer)
+
+# printer.printBitmap(100, 100, buffer)
