@@ -38,3 +38,9 @@ def handleString(value):
 brew.subscribe("incoming strings", handleString)
 
 brew.start()
+
+filepath = "test.gif"
+
+buffer = open(filepath, 'rb').read()
+
+printer.printBitmap(100, 100, buffer)
