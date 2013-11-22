@@ -34,5 +34,5 @@ def handleString(value):
 
 
 
-brew.subscribe("chat incoming", handleString)
+brew.subscribe("incoming strings", handleString)
 
