@@ -14,7 +14,8 @@ printer.doubleHeightOn()
 printer.boldOn()
 printer.justify('L')
 
-printer.println("STUDIO-X NEW YORK")
+printer.println("Printer Started")
+printer.feed(5)
 
 
 # Print the 75x75 pixel logo in adalogo.py
