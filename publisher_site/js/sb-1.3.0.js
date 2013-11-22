@@ -167,7 +167,7 @@ Spacebrew.Client = function( server, name, description, options ){
 	 * Spacebrew server to which the app will connect
 	 * @type {String}
 	 */
-	this.server = server || "server.sitetosite.co";
+	this.server = server || "sandbox.spacebrew.cc";
 	if (window) {
 		this.server = (window.getQueryString('server') !== "" ? unescape(window.getQueryString('server')) : this.server);
 	}
