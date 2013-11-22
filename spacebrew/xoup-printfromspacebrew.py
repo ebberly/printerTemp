@@ -36,3 +36,4 @@ def handleString(value):
 
 brew.subscribe("incoming strings", handleString)
 
+brew.start()
