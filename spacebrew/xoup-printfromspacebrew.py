@@ -30,6 +30,7 @@ brew.addSubscriber("incoming strings", "string")
 
 def handleString(value):
 	printer.println(value)	
+	printer.feed(2)
 
 
 
